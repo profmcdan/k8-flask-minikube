@@ -146,7 +146,7 @@ Build and push the image to Docker Hub:
 $ docker build -t profmcdan/vue-kubernetes ./services/client \
     -f ./services/client/Dockerfile-minikube
 
-$ docker push mjhea0/vue-kubernetes
+$ docker push profmcdan/vue-kubernetes
 ```
 
 > Again, replace `profmcdan` with your Docker Hub namespace in the above commands as well as in _kubernetes/vue-deployment.yml_
